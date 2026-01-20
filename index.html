@@ -10,33 +10,38 @@
       margin: 0;
       background: #0f172a;
       color: #e5e7eb;
+      line-height: 1.6;
     }
     header {
       padding: 3rem 1.5rem;
       text-align: center;
     }
-    h1 {
-      font-size: 2.5rem;
-      margin-bottom: 0.25rem;
-    }
-    h2 {
-      margin-top: 3rem;
-      color: #38bdf8;
-    }
     section {
       max-width: 900px;
       margin: auto;
-      padding: 0 1.5rem 3rem;
+      padding: 2rem 1.5rem;
     }
-    a {
+    h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+    h2 {
+      margin-top: 0;
       color: #38bdf8;
-      text-decoration: none;
+    }
+    ul {
+      margin-left: 1.5rem;
     }
     .card {
       background: #020617;
-      padding: 1.25rem;
+      padding: 1.5rem;
       border-radius: 12px;
-      margin-top: 1rem;
+    }
+    img {
+      max-width: 200px;
+      border-radius: 12px;
+      display: block;
+      margin: 1rem auto;
     }
   </style>
 </head>
@@ -44,34 +49,86 @@
 
 <header>
   <h1>Anthony Bibbo</h1>
-  <p>Software Engineer · Unity · C# · C++</p>
 </header>
 
 <section>
-  <h2>About</h2>
+  <h2>Section 1: About Me</h2>
   <div class="card">
+    <!-- INSERT YOUR PHOTO BELOW -->
+    <!-- Replace "your-photo.jpg" with the filename you upload to the repo -->
+    <img src="anthony.jpg" alt="Photo of Anthony Bibbo">
+
     <p>
-      I build software systems focused on graphics, real-time communication,
-      and tooling. My work includes Unity multi-display applications,
-      .NET communication hosts, and low-level systems exploration.
+      I am in this class to broaden my software skillset with knowledge on
+      digital creation and consumption.
     </p>
   </div>
+</section>
 
-  <h2>Projects</h2>
+<section>
+  <h2>Section 2: Media I Frequently Use</h2>
   <div class="card">
-    <strong>Unity Multi-Display Controller</strong>
-    <p>Coordinated multi-display scene loading and runtime messaging.</p>
-  </div>
+    <ul>
+      <li>
+        <strong>Movies</strong>
+        <ul>
+          <li>Movie Theatre</li>
+          <li>
+            Home TV
+            <ul>
+              <li>Action movies</li>
+              <li>Comedy movies</li>
+              <li>Examples: <em>No Other Choice</em>, <em>Anaconda</em></li>
+            </ul>
+          </li>
+        </ul>
+      </li>
 
-  <div class="card">
-    <strong>OWIN Media Host</strong>
-    <p>Multi-protocol communication host written in C#.</p>
-  </div>
+      <li>
+        <strong>Music</strong>
+        <ul>
+          <li>Devices: iPhone, Car</li>
+          <li>Genres: Rap, Country, Rock</li>
+        </ul>
+      </li>
 
-  <h2>Links</h2>
+      <li>
+        <strong>Television</strong>
+        <ul>
+          <li>Devices: Home TV, Laptop</li>
+          <li>Platforms: Netflix, HBO Max</li>
+          <li>Examples: <em>Stranger Things</em>, <em>Modern Family</em></li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Video Games</strong>
+        <ul>
+          <li>Devices: PS5, Laptop</li>
+          <li>Genres: First-Person Shooter, Sandbox Survival</li>
+          <li>Examples: <em>Battlefield 6</em>, <em>Minecraft</em></li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Short Videos</strong>
+        <ul>
+          <li>Device: iPhone</li>
+          <li>Platforms: YouTube, Instagram Reels</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>Section 3: Challenges with Media Consumption</h2>
   <div class="card">
     <p>
-      <a href="https://github.com/AnthonyBibbo">GitHub</a>
+      One problem I face with Netflix is sometimes being unable to watch content
+      when I am away from my home address. Additionally, if I do not have a good
+      internet or cellular connection, I am unable to play video games, watch
+      videos, or listen to any other kind of media.
     </p>
   </div>
 </section>
